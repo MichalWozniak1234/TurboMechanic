@@ -8,7 +8,6 @@ namespace Company.PortalWWW.Controllers
     {
         public IActionResult Index() => View();
         public IActionResult Contact() => View();
-        public IActionResult About() => View();
         public IActionResult Products() => View();
         public IActionResult StyleGuide() => View();
 
