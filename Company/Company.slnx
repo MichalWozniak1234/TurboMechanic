@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Company.Intranet/Company.Intranet.csproj" />
+  <Project Path="Company.PortalWWW/Company.PortalWWW.csproj" />
+</Solution>
