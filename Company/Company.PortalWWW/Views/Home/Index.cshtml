@@ -1,26 +1,55 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Dla kierowcy";
 }
 
-<div class="container">
+<section class="hero">
+    <div class="hero-text">
+        <p class="small-title">Dla kierowcow</p>
+        <h1>Znajdz mechanika w dobrej cenie i blisko domu</h1>
+        <p>
+            TurboMechanik pomaga szybko porownac warsztaty po cenie, lokalizacji
+            i ocenach innych klientow.
+        </p>
 
-    <br><br>
-
-    <h1 class="header center orange-text">Welcome to storrr</h1>
-
-    <div class="row center">
-
-        <h5 class="header col s12 light">Our store is modern and ideal. Our store is modern and ideal. Our store is modern and ideal.</h5>
-
+        <form class="search-box">
+            <input type="text" placeholder="Wpisz miasto lub kod pocztowy" />
+            <select>
+                <option>Wybierz naprawe</option>
+                <option>Hamulce</option>
+                <option>Zawieszenie</option>
+                <option>Silnik</option>
+                <option>Klimatyzacja</option>
+            </select>
+            <button type="button">Szukaj warsztatu</button>
+        </form>
     </div>
 
-    <div class="row center">
-
-        <a href="http://wp.pl" id="download-button" class="btn-large waves-effect waves-light orange">To the store</a>
-
+    <div class="hero-card">
+        <h2>Przykladowa wycena</h2>
+        <p>Wymiana klockow hamulcowych</p>
+        <div class="price">od 250 zl</div>
+        <ul>
+            <li>2.4 km od Ciebie</li>
+            <li>Ocena warsztatu 4.8/5</li>
+            <li>Wolny termin jutro</li>
+        </ul>
     </div>
+</section>
 
-    <br><br>
-
-
-</div>
+<section class="cards-section">
+    <article class="info-card">
+        <span>1</span>
+        <h2>Wybierz naprawe</h2>
+        <p>Uzytkownik wybiera typ usterki i podaje swoja lokalizacje.</p>
+    </article>
+    <article class="info-card">
+        <span>2</span>
+        <h2>Porownaj oferty</h2>
+        <p>Strona pokazuje cene, odleglosc oraz ocene mechanika.</p>
+    </article>
+    <article class="info-card">
+        <span>3</span>
+        <h2>Umow termin</h2>
+        <p>Klient moze wybrac warsztat, ktory najbardziej mu pasuje.</p>
+    </article>
+</section>

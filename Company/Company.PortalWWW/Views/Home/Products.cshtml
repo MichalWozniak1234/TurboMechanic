@@ -1,7 +1,67 @@
 ﻿
 @{
-    ViewData["Title"] = "Products";
+    ViewData["Title"] = "Dla mechanika";
 }
 
-<h1>Products</h1>
+<section class="page-header">
+    <p class="small-title">Dla mechanikow</p>
+    <h1>Panel warsztatu</h1>
+    <p>
+        Mechanik moze dodac swoj warsztat, podac lokalizacje, cennik i uslugi,
+        zeby klienci mogli go znalezc w porownywarce.
+    </p>
+</section>
 
+<section class="mechanic-layout">
+    <div class="form-card">
+        <h2>Dodaj warsztat</h2>
+        <form>
+            <label>
+                Nazwa warsztatu
+                <input type="text" placeholder="np. Auto Serwis Kowalski" />
+            </label>
+
+            <label>
+                Miasto
+                <input type="text" placeholder="np. Krakow" />
+            </label>
+
+            <label>
+                Glowna usluga
+                <select>
+                    <option>Mechanika pojazdowa</option>
+                    <option>Hamulce</option>
+                    <option>Klimatyzacja</option>
+                    <option>Diagnostyka</option>
+                </select>
+            </label>
+
+            <label>
+                Cena od
+                <input type="text" placeholder="np. 150 zl" />
+            </label>
+
+            <button type="button">Zapisz warsztat</button>
+        </form>
+    </div>
+
+    <div class="list-card">
+        <h2>Jak widzi to klient</h2>
+
+        <article class="workshop-row">
+            <div>
+                <h3>Auto Serwis Kowalski</h3>
+                <p>Mechanika pojazdowa, hamulce, diagnostyka</p>
+            </div>
+            <strong>od 150 zl</strong>
+        </article>
+
+        <article class="workshop-row">
+            <div>
+                <h3>Turbo Garage</h3>
+                <p>Silnik, zawieszenie, klimatyzacja</p>
+            </div>
+            <strong>od 220 zl</strong>
+        </article>
+    </div>
+</section>

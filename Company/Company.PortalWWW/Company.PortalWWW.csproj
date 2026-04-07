@@ -13,4 +13,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\Repair\WorkshopDto.cs" />
+    <Compile Remove="Controllers\RepairController.cs" />
+  </ItemGroup>
+
 </Project>
