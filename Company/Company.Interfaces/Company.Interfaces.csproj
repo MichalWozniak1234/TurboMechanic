@@ -10,8 +10,4 @@
     <ProjectReference Include="..\Company.Data\Company.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>

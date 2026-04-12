@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstrakcja\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Company.Data\Company.Data.csproj" />
     <ProjectReference Include="..\Company.Interfaces\Company.Interfaces.csproj" />
   </ItemGroup>

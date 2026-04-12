@@ -41,6 +41,8 @@ namespace Company.Intranet
                 .AddEntityFrameworkStores<MechanicDbContext>()
                 .AddDefaultTokenProviders();
 
+            DependencyInjectionFactory.Resolve(builder.Services, builder.Configuration);
+
             builder.Services.AddControllersWithViews();
 
             return builder.Build();
