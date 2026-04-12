@@ -3,16 +3,16 @@ version: '3.8'
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: Turbomechanic-sqlserver
+    container_name: TurboMechanic-sqlserver
     
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=StrongPassw0rd123
       - MSSQL_PID=Developer
     ports:
-      - "1430:1433"
+      - "1431:1433"
     volumes:
-      - PIAB2026DayStudies-data:/var/opt/mssql
+      - TurboMechanic-data:/var/opt/mssql
     networks:
       - dev-network
 
@@ -21,4 +21,4 @@ networks:
     driver: bridge
 
 volumes:
-  PIAB2026DayStudies-data:
+  TurboMechanic-data:

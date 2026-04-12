@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="Company.Data/Company.Data.csproj" Id="dd8fdb58-e069-48b4-b77a-64b0fc497a7b" />
+  <Project Path="Company.Interfaces/Company.Interfaces.csproj" Id="92dc10e2-5a57-42ef-8ce8-b3b40d9b6389" />
   <Project Path="Company.Intranet/Company.Intranet.csproj" />
   <Project Path="Company.PortalWWW/Company.PortalWWW.csproj" />
+  <Project Path="Company.Services/Company.Services.csproj" Id="3121e4bf-4d5a-486e-a91a-6207d358d482" />
 </Solution>
